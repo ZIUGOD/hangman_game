@@ -7,6 +7,46 @@ color = {
     "warning": "\033[93m",  # starts yellow color
 }
 
+game_word = {
+    "easy": {
+        "object": [
+            "cadeira",
+            "livro",
+            "caneta",
+            "mesa",
+            "anel",
+        ],
+        "animal": [
+            "cachorro",
+            "gato",
+            "vaca",
+            "cavalo",
+            "porco",
+        ],
+        "verb": [
+            "andar",
+            "correr",
+            "levar",
+            "olhar",
+            "lavar",
+        ],
+        "food": ["arroz", "leite", "morango", ""],
+    },
+    "medium": {
+        "object": [],
+        "animal": [],
+        "verb": [],
+        "food": [],
+    },
+    "hard": {
+        "object": [],
+        "animal": [],
+        "verb": [],
+        "food": [],
+    },
+}
+
+
 difficulties = [
     "Fácil",
     "Média",
@@ -14,10 +54,8 @@ difficulties = [
 ]
 
 game_vocab = [
-    [  # palavras faceis
-        "ilha",
+    [  # palavras faceis,
         "milho",
-        "cachorro",
         "comida",
         "fome",
         "leite",
